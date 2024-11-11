@@ -28,6 +28,15 @@ def get_properties():
 #############################
 ### STREAMLIT PAGE BLOCKS ###
 #############################
+def page_config():
+    # Set the page title and icon
+    st.set_page_config(
+        page_title="Coolprop Charts",  # Title of the browser tab
+        page_icon=".img/coolprop_logo_tab.png",  # You can use an emoji or a URL to an icon image
+        layout="wide",
+        menu_items={"Report a Bug":"https://www.linkedin.com/in/riccardofavetti/",
+                    "About": "https://github.com/faveric/CoolpropCharts/tree/master"}
+    )
 def page_title():
     tit1, tit2 = st.columns(2, vertical_alignment="bottom")
     with tit1:

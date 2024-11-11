@@ -8,6 +8,9 @@ import numpy as np
 # Import your Diagram and Line classes
 from classes import Diagram, Line  # Adjust the import based on where the classes are defined
 
+# Page configuration
+page_config()
+
 # Initialize session state for diagrams, points, and counters if they don't exist
 if 'diagrams' not in st.session_state:
     st.session_state['diagrams'] = []
