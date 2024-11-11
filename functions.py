@@ -151,6 +151,13 @@ def page_line_handler():
                     st.success(f"Line '{line_name}' added to diagram '{st.session_state['active_diagram'].name}'.")
                 except ValueError as e:
                     st.error(e)
+def page_info():
+    @st.dialog('README')
+    def info():
+        with open('README.md') as file:
+            st.markdown(file.read())
+    if st.sidebar.button('README'):
+        info()
 def points_table(active_diagram):
     st.subheader('TABLE')
     with st.container(border=True):

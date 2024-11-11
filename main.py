@@ -21,6 +21,9 @@ properties, property_units = get_properties()
 # Streamlit Sidebar Mode Select
 st.session_state['operating_mode']=st.sidebar.radio('Select Operating Mode', ['Main', 'Reversed Thermodynamic Cycle'])
 
+# Readme
+page_info()
+
 # Streamlit app title
 page_title()
 
