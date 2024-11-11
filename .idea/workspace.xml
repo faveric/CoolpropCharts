@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32c2177-afe5-4733-a5b5-aa67721ea97b" name="Changes" comment="First Commit - Rev 0.0">
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="e32c2177-afe5-4733-a5b5-aa67721ea97b" name="Changes" comment="Add requirements.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "faveric"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/faveric/CoolpropCharts",
+    "accountId": "d3fc349d-8335-4946-9572-b75ec277966d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -80,11 +91,28 @@
       <option name="project" value="LOCAL" />
       <updated>1731321136660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit - Rev 0.0">
+      <option name="closed" value="true" />
+      <created>1731321482424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731321482424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add requirements.txt">
+      <option name="closed" value="true" />
+      <created>1731321881036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731321881036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit - Rev 0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit - Rev 0.0" />
+    <MESSAGE value="Add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requirements.txt" />
   </component>
 </project>

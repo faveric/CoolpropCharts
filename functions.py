@@ -107,7 +107,7 @@ def page_point_handler():
                 T_evaporation = st.number_input("Enter Evaporation Temperature [K]", key="T_evaporation")
                 T_condensation = st.number_input("Enter Condensation Temperature [K]", key="T_condensation")
                 Superheat = st.number_input("Enter Superheat [K]", key="Superheat")
-                Pump_Isentropic_Efficiency = st.number_input("Enter Pump Isentropic Efficiency", 0.0, 1.0, step=0.01)
+                Pump_Isentropic_Efficiency = st.number_input("Enter Compressor Isentropic Efficiency", 0.0, 1.0, step=0.01)
                 Subcooling = st.number_input("Enter Subcooling [K]", key="Subcooling")
 
                 # Calculate Points
